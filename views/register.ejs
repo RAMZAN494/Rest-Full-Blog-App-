@@ -1,0 +1,22 @@
+ <%- include("partials/header"); %>
+
+<div class=" ui container" id="login">
+  <div class="ui main text container segment">
+	<h1> SignUp</h1>
+		<form action="/register" method="POST" class="ui form">
+			<div class="ui field">
+				<label for="username">User Name</label>
+				<input type="text" name="username" placeholder="Username">
+			</div>
+			<div class="ui field">
+				<label for="password">Password</label>
+				<input type="Password" name="password"   placeholder="Password">
+		    </div>
+			<button class="ui  black button">SignUP</button>
+	   </form>
+
+	</div>
+</div>
+
+
+<%- include("partials/fotter"); %>
